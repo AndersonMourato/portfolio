@@ -1,0 +1,68 @@
+.content{
+    width: 60%;
+}
+.about-content, .skill-content, .academic-content{
+    padding: 20px 0;
+    margin: 35px auto;
+    color: var(--corTexto);
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content p{
+    text-align: justify;
+}
+
+.skill-content{
+    background-color: var(--corFundo2);
+}
+
+.academic-content span{
+    font-weight: 600;
+}
+
+i{
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: var(--corDestaq);
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill .skill-item {
+    list-style: none;
+    float: left;
+    width: calc(100% / 4);
+}
+
+.card-body{
+    background-color: var(--corFundo2);
+}
+.btn{
+    color: var(--corTexto);
+}
+.btn-experience{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .content{
+        width: 82%;
+    }
+
+    .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill .skill-item{
+        width: calc(100% / 2);
+    }
+}

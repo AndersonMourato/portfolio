@@ -17,8 +17,8 @@ body {
 
 :root{
     --corFundo1: #040C10;
-    --corFundo2: #202024;
-    --corTexto: #BABABA;
+    --corFundo2: #1d2629;
+    --corTexto: #d0d0d0;
     --corDestaq: #9412DC;
 }
 html, body { height: 100%; }
