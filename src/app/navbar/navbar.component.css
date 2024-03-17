@@ -1,0 +1,28 @@
+.navbar{
+    background-color: var(--corFundo1);
+}
+
+.nav-link, .navbar-brand{
+    color: var(--corTexto);
+}
+
+.navbar-brand{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navbar .collapse{
+    justify-content: flex-end;
+}
+
+.nav-link{
+    border-bottom: solid 3px var(--corFundo1);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-bottom: 0;
+}
+
+.nav-link:hover{
+    border-color:var(--corDestaq);
+}
