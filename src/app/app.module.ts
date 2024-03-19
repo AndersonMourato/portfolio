@@ -13,6 +13,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ErroComponent } from './erro/erro.component';
 import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { ProjectComponent } from './components/project/project.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,14 +26,17 @@ import { RouterLink } from '@angular/router';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    ErroComponent
+    ErroComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    RouterLink
+    RouterLink,
+    FormsModule,
+    TranslateModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
