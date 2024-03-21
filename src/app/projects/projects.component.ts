@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Project, projects } from '../data';
+
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  projects: Project[] = [];
 
+  constructor() { 
+    this.projects = projects;
+  }
+  
   ngOnInit(): void {
+    //console.log(this.projects[0].tags);
   }
 
 }

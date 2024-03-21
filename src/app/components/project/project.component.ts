@@ -6,24 +6,29 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
-  src:string = "../../../assets/img/";
   
   @Input()
-  image: string = `${this.src}captura-de-tela 2024-03-10-235626.png`;
+  image: string = "";
   @Input()
-  title: string = "no title";
+  title: string = "No title";
   @Input()
   date: string = "no date";
   @Input()
   description: string = "no description";
   @Input()
-  tags: string = "no tags";
+  subDescription: string = "";
   @Input()
-  link: string = "";
+  tags: string[] | any = [];
+  @Input()
+  linkProject: string = "#";
+  @Input()
+  linkGit: string = "#"
 
-  constructor() { }
-
+  constructor(){}
+  
   ngOnInit(): void {
+    this.image? this.image = this.image: this.image = "../../assets/img/no-image-available-icon-vector.jpg";
+    this.tags? this.tags = this.tags.split(","): this.tags = [""];
   }
 
 }
