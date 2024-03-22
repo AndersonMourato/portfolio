@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about',
@@ -7,15 +6,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor(private translate: TranslateService)
-  { }
+  constructor(){}
 
   ngOnInit(): void {
-    this.translate.setDefaultLang('en');
-  }
-
-  alterarIdioma(idioma:string) {
-    this.translate.use(idioma);
   }
 }

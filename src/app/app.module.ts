@@ -13,9 +13,10 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ErroComponent } from './erro/erro.component';
 import { RouterLink } from '@angular/router';
-import { TranslateModule } from '@ngx-translate/core';
 import { ProjectComponent } from './components/project/project.component';
 import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { FormsModule } from '@angular/forms';
     MatSlideToggleModule,
     RouterLink,
     FormsModule,
-    TranslateModule.forRoot()
+    MatFormFieldModule,
+    MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
