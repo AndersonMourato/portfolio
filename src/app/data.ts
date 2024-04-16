@@ -11,47 +11,47 @@ export interface Project{
 
 export const projects:Project[] = [
   {
-    image: "https://github.com/AndersonMourato/projeto-loja-proway/raw/main/src/assets/capture/captura-de-tela-2024-03-10-235626.png",
-    title: "Loja ProWay - Programa Start By Capgemini",
+    image: "../assets/img/loja-proway.jpg",
+    title: "Loja ProWay - E-commerce",
     date: "25/02/2024",
-    description: "Front end desenvolvido em Angular, muito produtivo com recursos que permitem;",
-    subDescription: "buscar produto em qual quer pagina do site, adicionar ou remover itens do carrinho, editar carrinho e ver o valor total do carrinho. Exploramos bastante rotas, módulos e serviços.",
-    tags: ["HTML", "CSS", "TypeScript", "Angular", "Components"],
+    description: "Foi desenvolvido um projeto de E-commerce com ANGULAR utilizando rotas, módulos, serviços e componentes.",
+    subDescription: "O programa permite buscar por produtos de qualquer lugar na página, adicionar itens ao carrinho, editar carrinho e calcular os valores totais.",
+    tags: ["Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Components"],
     linkProject: "https://andersonmourato.github.io/projeto-loja-proway/",
     linkGit: "https://github.com/AndersonMourato/projeto-loja-proway"
   },
 
   {
-    image: "https://github.com/AndersonMourato/Desafio-Start-By-Capgemini/raw/main/src/assets/captura-de-tela-2024-03-14-110713.png",
-    title: "Projeto teste pra ver se fica bom, bp, testado mesmo",
-    date: "22/01/2024",
-    description: "sçldfmkaldsnfmkalwsndfgsd sadlfmasdklçfm ",
-    subDescription: "",
-    tags: ["tag1", "tag2", "tag6", "tag5"],
-    linkProject: "string",
-    linkGit: "string"
+    image: "../assets/img/cadastro-alunos.jpg",
+    title: "Calcular Média/Aprovação de Alunos",
+    date: "02/03/2024",
+    description: "Um programa simples mas intuitivo para calcular a média de alunos e verificar se foi aprovado ou não, tudo isso renderizado na tela em tempo real, sem a necessidade de redirecionar a página ou carregar.",
+    subDescription: "As informações ficam salvas no cache do navegador.",
+    tags: ["Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/Desafio-Start-By-Capgemini/",
+    linkGit: "https://github.com/AndersonMourato/Desafio-Start-By-Capgemini"
   },
 
   {
-    image: "",
-    title: "Loja ProWay - Programa Start By Capgemini",
-    date: "25/02/2024",
-    description: "Front end desenvolvido em Angular, muito produtivo com recursos que permitem;",
-    subDescription: "buscar produto em qual quer pagina do site, adicionar ou remover itens do carrinho, editar carrinho e ver o valor total do carrinho. Exploramos bastante rotas, módulos e serviços.",
-    tags: ["HTML", "CSS", "TypeScript", "Angular", "Components"],
-    linkProject: "https://andersonmourato.github.io/projeto-loja-proway/",
-    linkGit: "https://github.com/AndersonMourato/projeto-loja-proway"
+    image: "../assets/img/todo-list-react.jpg",
+    title: "To-do List",
+    date: "01/09/2023",
+    description: "Esse Todo List foi desenvolvido brincando com React, trabalhando components e hooks",
+    subDescription: "",
+    tags: ["React", "HTML", "CSS", "JavaScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/todolist/",
+    linkGit: "https://github.com/AndersonMourato/todolist"
   },
 
   {
-    image: "",
-    title: "Projeto teste pra ver se fica bom, bp, testado mesmo",
-    date: "22/01/2024",
-    description: "sçldfmkaldsnfmkalwsndfgsd sadlfmasdklçfm ",
-    subDescription: "",
-    tags: ["tag1", "tag2", "tag6", "tag5"],
-    linkProject: "string",
-    linkGit: "string"
+    image: "../assets/img/blog-angular.jpg",
+    title: "Blog-Angular",
+    date: "12/12/2023",
+    description: "Bootcamp Coding The Future Banco PAN - Desenvolvimento Frontend com Angular.",
+    subDescription: "Trabalhando components de forma prática, eficaz e explorando as routs.",
+    tags: ["Angular", "HTML", "CSS", "TypeScript", "JavaScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/blog-angular/",
+    linkGit: "https://github.com/AndersonMourato/blog-angular"
   },
 
 

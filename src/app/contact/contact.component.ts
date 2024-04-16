@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +10,7 @@ export class ContactComponent implements OnInit {
   email:string = "";
   message:string = "";
   
-  constructor( private ApiService: ApiService ) {}
+  constructor() {}
 
   ngOnInit(): void {}
   
@@ -21,19 +20,6 @@ export class ContactComponent implements OnInit {
       email: this.email,
       message: this.message
     };
-
-    /*
-      const formData = new FormData();
-      formData.append('nome', this.nome);
-      formData.append('email', this.email);
-      formData.append('message', this.message);
-    */
-    this.ApiService.sendEmail( dados );
-
-    alert("Enviado!");
-    this.nome = "";
-    this.email = "";
-    this.message = "";
 
   }
 
