@@ -36,7 +36,7 @@ export const projects:Project[] = [
     image: "../assets/img/todo-list-react.jpg",
     title: "To-do List",
     date: "01/09/2023",
-    description: "Esse Todo List foi desenvolvido brincando com React, trabalhando components e hooks",
+    description: "Esse Todo List foi desenvolvido brincando com React, explorando components e hooks",
     subDescription: "",
     tags: ["React", "HTML", "CSS", "JavaScript", "Components"],
     linkProject: "https://andersonmourato.github.io/todolist/",
@@ -44,15 +44,17 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/blog-angular.jpg",
-    title: "Blog-Angular",
-    date: "12/12/2023",
-    description: "Bootcamp Coding The Future Banco PAN - Desenvolvimento Frontend com Angular.",
-    subDescription: "Trabalhando components de forma prática, eficaz e explorando as routs.",
-    tags: ["Angular", "HTML", "CSS", "TypeScript", "JavaScript", "Components"],
-    linkProject: "https://andersonmourato.github.io/blog-angular/",
-    linkGit: "https://github.com/AndersonMourato/blog-angular"
+    image: "../assets/img/catalogo-dig.jpg",
+    title: "Catalogo Digital",
+    date: "10/12/2023",
+    description: "Este aplicativo surgiu de uma ideia sobre a necessidade em uma empresa onde já trabalhei. O objetivo era criar um sistema completo que, após o login do usuário, exibisse todos os produtos com estoque disponível, incluindo informações de preço, promoções e imagens. Para facilitar a navegação, o sistema oferece opções de filtro por produtos, filial, marca, departamento e categoria. Finalizando a experiência, o usuário poderia selecionar itens e gerar páginas em PDF ou JPG, como um catálogo digital.",
+    subDescription: "O desenvolvimento do mesmo, me proporcionou a oportunidade de explorar profundamente os recursos do React, como rotas, paginação, componentes, hooks e props.",
+    tags: ["React", "HTML", "CSS", "JavaScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/CatalogoDig/",
+    linkGit: "https://github.com/AndersonMourato/CatalogoDig"
   },
+
+
 
 
 ] 
