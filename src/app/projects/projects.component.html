@@ -9,6 +9,31 @@
             tags="{{ project.tags }}"
             linkProject="{{ project.linkProject }}"
             linkGit="{{ project.linkGit }}"
-        ></app-project>
-    </section>
-</div>
+          ></app-project>
+      </section>  
+      
+
+     <!-- Modal -->
+     <div class="modal fade" id="showModal" tabindex="-1" aria-labelledby="showModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <app-project
+              image="{{ projects[1].image }}"
+              title="{{ projects[1].title }}"
+              date="{{ projects[1].date }}"
+              description="{{ projects[1].description }}"
+              subDescription="{{ projects[1].subDescription }}"
+              tags="{{ projects[1].tags }}"
+              linkProject="{{ projects[1].linkProject }}"
+              linkGit="{{ projects[1].linkGit }}"
+            ></app-project>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>

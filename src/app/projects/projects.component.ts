@@ -19,4 +19,6 @@ export class ProjectsComponent implements OnInit {
     //console.log(this.projects[0].tags);
   }
 
+ 
+
 }

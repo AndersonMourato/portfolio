@@ -54,6 +54,39 @@ export const projects:Project[] = [
     linkGit: "https://github.com/AndersonMourato/CatalogoDig"
   },
 
+  {
+    image: "../assets/img/blog-angular.jpg",
+    title: "Blog de Notícias",
+    date: "01/01/2024",
+    description: "Blgo foi desenvolvido no bootcamp Coding The Future Banco PAN - Frontend com Angular com habilidades práticas para construir aplicações web modernas e responsivas, utilizam o método, SPA (Single Page Application) para páginas que carregam mais rápido e com mais responsividade.",
+    subDescription: "",
+    tags: ["Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/blog-angular/",
+    linkGit: "https://github.com/AndersonMourato/blog-angular"
+  },
+
+  {
+    image: "../assets/img/buzz-feed.jpg",
+    title: "BuzzFeed",
+    date: "20/01/2024",
+    description: "BuzzFeed foi desenvolvido no bootcamp Coding The Future Banco PAN - Frontend com Angular com habilidades práticas para construir aplicações web modernas e responsivas, utilizam o método, SPA (Single Page Application) para páginas que carregam mais rápido e com mais responsividade.",
+    subDescription: "Uma aplicação muito intuitiva, o objetivo é descobrir se você tem um perfil para super herói ou de vilão através de 5 perguntas aleatórias.",
+    tags: ["Angular", "HTML", "CSS", "JavaScript", "TypeScript", "Components"],
+    linkProject: "https://andersonmourato.github.io/BuzzFeed-Angular/",
+    linkGit: "https://github.com/AndersonMourato/BuzzFeed-Angular"
+  },
+
+  {
+    image: "../assets/img/pokedex.jpg",
+    title: "Pokedex",
+    date: "20/11/2023",
+    description: "Desafios de Projeto BOOTCAMP da DIO - Explorar o mundo Pokémon através do consumo de uma API REST para a criação de uma Pokédex incrível!",
+    subDescription: "Importante destacar que esta aplicação funciona com JS puro manipulando o HTML, além de consumir uma API do Pokédex e usar a metodologia de Carregamento Progressivo (Progressive Loading).",
+    tags: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    linkProject: "https://andersonmourato.github.io/js-developer-pokedex/",
+    linkGit: "https://github.com/AndersonMourato/js-developer-pokedex"
+  },
+
 
 
 

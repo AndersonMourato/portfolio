@@ -1,11 +1,13 @@
 <article class="card-container">
     <div class="imagem">
-        <img src="{{image}}" alt="{{ title }}">
+        <img src="{{image}}" alt="{{ title }}" data-bs-toggle="modal" data-bs-target="#showModal">
     </div>
-    <h4> {{ title }} </h4>
+    <h4 data-bs-toggle="modal" data-bs-target="#showModal"> {{ title }} </h4>
     <span class="date"> {{ date }} </span>
-    <p> {{ description }} </p>
-    <p> {{ subDescription }} </p>
+    <div class="descricao" data-bs-toggle="modal" data-bs-target="#showModal">
+        <p> {{ description }} </p>
+        <p> {{ subDescription }} </p>
+    </div>
     <hr>
     <ul class="tags">
         <li class="tag" *ngFor="let tag of tags "> {{ tag }} </li>
@@ -16,3 +18,4 @@
         <a href="{{ linkProject }}" target="_blank"> <i class="bi bi-arrow-up-right-circle"></i> </a>
     </div>
 </article>
+
