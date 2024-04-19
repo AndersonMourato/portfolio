@@ -1,13 +1,12 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ModalService } from 'src/app/modal.service';
 
 @Component({
-  selector: 'app-project',
-  templateUrl: './project.component.html',
-  styleUrls: ['./project.component.css']
+  selector: 'app-modal',
+  templateUrl: './modal.component.html',
+  styleUrls: ['./modal.component.css']
 })
-export class ProjectComponent implements OnInit {
-  
+export class ModalComponent implements OnInit {
+
   @Input()
   image: string = "";
   @Input()
@@ -24,20 +23,16 @@ export class ProjectComponent implements OnInit {
   linkProject: string = "#";
   @Input()
   linkGit: string = "#";
-  @Input()
-  idModal: number | any;
 
-  constructor( private serviceModal: ModalService ){}
+
+  constructor(){}
   
   ngOnInit(): void {
     this.image? this.image = this.image: this.image = "../../assets/img/no-image.jpg";
     this.tags? this.tags = this.tags.split(","): this.tags = [""];
-    
-    this.serviceModal.idModal = this.idModal
   }
 
-  btnModal(){
-    this.serviceModal.idModal = this.idModal
-  }
+
 
 }
+

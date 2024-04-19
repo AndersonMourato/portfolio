@@ -1,6 +1,6 @@
 <div class="container">
     <section class="cads-content" >
-        <app-project *ngFor="let project of projects"
+        <app-project *ngFor="let project of projects; let key = index"
             image="{{ project.image }}"
             title="{{ project.title }}"
             date="{{ project.date }}"
@@ -9,27 +9,29 @@
             tags="{{ project.tags }}"
             linkProject="{{ project.linkProject }}"
             linkGit="{{ project.linkGit }}"
+            idModal="{{ key }}"
           ></app-project>
       </section>  
       
-
      <!-- Modal -->
      <div class="modal fade" id="showModal" tabindex="-1" aria-labelledby="showModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
 
           <div class="modal-body">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            <app-project
-              image="{{ projects[1].image }}"
-              title="{{ projects[1].title }}"
-              date="{{ projects[1].date }}"
-              description="{{ projects[1].description }}"
-              subDescription="{{ projects[1].subDescription }}"
-              tags="{{ projects[1].tags }}"
-              linkProject="{{ projects[1].linkProject }}"
-              linkGit="{{ projects[1].linkGit }}"
-            ></app-project>
+            <div class="button-close" > 
+              <i class="bi bi-x-lg" data-bs-dismiss="modal" aria-label="Close"></i>
+            </div>
+            <app-modal
+              image="{{ projects[serviceModal.idModal].image }}"
+              title="{{ projects[serviceModal.idModal].title }}"
+              date="{{ projects[serviceModal.idModal].date }}"
+              description="{{ projects[serviceModal.idModal].description }}"
+              subDescription="{{ projects[serviceModal.idModal].subDescription }}"
+              tags="{{ projects[serviceModal.idModal].tags }}"
+              linkProject="{{ projects[serviceModal.idModal].linkProject }}"
+              linkGit="{{ projects[serviceModal.idModal].linkGit }}"
+            ></app-modal>
           </div>
           
         </div>

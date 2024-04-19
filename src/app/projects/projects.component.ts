@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Project, projects } from '../data';
+import { ModalService } from '../modal.service';
 
 
 @Component({
@@ -11,14 +12,13 @@ export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [];
 
-  constructor() { 
+  constructor( public serviceModal: ModalService ) { 
     this.projects = projects;
   }
   
   ngOnInit(): void {
     //console.log(this.projects[0].tags);
   }
-
- 
+  
 
 }

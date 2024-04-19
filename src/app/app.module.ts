@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProjectsComponent,
     ContactComponent,
     ErroComponent,
-    ProjectComponent
+    ProjectComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
