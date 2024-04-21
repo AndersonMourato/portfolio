@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ModalService {
   idModal:number = 0;
+  urlImage:string = "";
 
   constructor() { }
 

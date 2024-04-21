@@ -10,7 +10,9 @@ export class ImageurlService {
    }
 
   getUrlImage(image:string):string{
-    console.log(this.urlBase)
-    return this.urlBase+"/assets/img/"+image;
+    // PATH LOCALHOST
+    //return this.urlBase+"/assets/img/"+image;
+    // PATH BUILD gitHub
+    return this.urlBase+"portfolio/assets/img/"+image;
   }
 }

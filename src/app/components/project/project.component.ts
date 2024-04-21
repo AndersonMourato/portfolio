@@ -39,11 +39,11 @@ export class ProjectComponent implements OnInit {
     this.image? this.image = image: this.image = noImage;
     this.tags? this.tags = this.tags.split(","): this.tags = [""];
     
-    this.serviceModal.idModal = this.idModal
   }
-
+  
   btnModal(){
     this.serviceModal.idModal = this.idModal
+    this.serviceModal.urlImage = this.image
   }
 
 }
