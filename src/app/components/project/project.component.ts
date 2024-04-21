@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ImageurlService } from 'src/app/imageurl.service';
 import { ModalService } from 'src/app/modal.service';
 
 @Component({
@@ -27,10 +28,15 @@ export class ProjectComponent implements OnInit {
   @Input()
   idModal: number | any;
 
-  constructor( private serviceModal: ModalService ){}
+  constructor( 
+    private serviceModal: ModalService,
+    private serviceImage: ImageurlService
+  ){}
   
   ngOnInit(): void {
-    this.image? this.image = this.image: this.image = "../../assets/img/no-image.jpg";
+    let noImage = this.serviceImage.getUrlImage("no-image.jpg");
+    let image = this.serviceImage.getUrlImage(this.image);
+    this.image? this.image = image: this.image = noImage;
     this.tags? this.tags = this.tags.split(","): this.tags = [""];
     
     this.serviceModal.idModal = this.idModal

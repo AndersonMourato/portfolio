@@ -11,7 +11,7 @@ export interface Project{
 
 export const projects:Project[] = [
   {
-    image: "../assets/img/loja-proway.jpg",
+    image: "loja-proway.jpg",
     title: "Loja ProWay - E-commerce",
     date: "25/02/2024",
     description: "Foi desenvolvido um projeto de E-commerce com ANGULAR utilizando rotas, módulos, serviços e componentes.",
@@ -22,7 +22,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/cadastro-alunos.jpg",
+    image: "cadastro-alunos.jpg",
     title: "Calcular Média/Aprovação de Alunos",
     date: "02/03/2024",
     description: "Um programa simples mas intuitivo para calcular a média de alunos e verificar se foi aprovado ou não, tudo isso renderizado na tela em tempo real, sem a necessidade de redirecionar a página ou carregar.",
@@ -33,7 +33,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/todo-list-react.jpg",
+    image: "todo-list-react.jpg",
     title: "To-do List",
     date: "01/09/2023",
     description: "Esse Todo List foi desenvolvido brincando com React, explorando components e hooks",
@@ -44,7 +44,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/catalogo-dig.jpg",
+    image: "catalogo-dig.jpg",
     title: "Catalogo Digital",
     date: "10/12/2023",
     description: "Este aplicativo surgiu de uma ideia sobre a necessidade em uma empresa onde já trabalhei. O objetivo era criar um sistema completo que, após o login do usuário, exibisse todos os produtos com estoque disponível, incluindo informações de preço, promoções e imagens. Para facilitar a navegação, o sistema oferece opções de filtro por produtos, filial, marca, departamento e categoria. Finalizando a experiência, o usuário poderia selecionar itens e gerar páginas em PDF ou JPG, como um catálogo digital.",
@@ -55,7 +55,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/blog-angular.jpg",
+    image: "blog-angular.jpg",
     title: "Blog de Notícias",
     date: "01/01/2024",
     description: "Blgo foi desenvolvido no bootcamp Coding The Future Banco PAN - Frontend com Angular com habilidades práticas para construir aplicações web modernas e responsivas, utilizam o método, SPA (Single Page Application) para páginas que carregam mais rápido e com mais responsividade.",
@@ -66,7 +66,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/buzz-feed.jpg",
+    image: "buzz-feed.jpg",
     title: "BuzzFeed",
     date: "20/01/2024",
     description: "BuzzFeed foi desenvolvido no bootcamp Coding The Future Banco PAN - Frontend com Angular com habilidades práticas para construir aplicações web modernas e responsivas, utilizam o método, SPA (Single Page Application) para páginas que carregam mais rápido e com mais responsividade.",
@@ -77,7 +77,7 @@ export const projects:Project[] = [
   },
 
   {
-    image: "../assets/img/pokedex.jpg",
+    image: "pokedex.jpg",
     title: "Pokedex",
     date: "20/11/2023",
     description: "Desafios de Projeto BOOTCAMP da DIO - Explorar o mundo Pokémon através do consumo de uma API REST para a criação de uma Pokédex incrível!",
