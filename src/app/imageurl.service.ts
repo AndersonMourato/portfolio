@@ -13,6 +13,6 @@ export class ImageurlService {
     // PATH LOCALHOST
     //return this.urlBase+"/assets/img/"+image;
     // PATH BUILD gitHub
-    return this.urlBase+"portfolio/assets/img/"+image;
+    return this.urlBase+"/portfolio/assets/img/"+image;
   }
 }
